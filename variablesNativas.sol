@@ -3,7 +3,7 @@
 pragma solidity 0.8.24; 
 contract variablesNativas {
     string private fullName; //Solo la puedo cambiar en el momento que inicializo el contrato. 
-    constructor (string memory nombre) {
+    constructor (string memory nombre) { // los constructores solo permite cambiarlo una ves
         fullName  = string.concat("Mi nombre es: ", " ", nombre); //Variables de Inicialización.
     }
     function getName () public view returns (string memory){

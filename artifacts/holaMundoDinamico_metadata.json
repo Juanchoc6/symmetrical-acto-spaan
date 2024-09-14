@@ -6,6 +6,58 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "correoElect",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "correoNuevo",
+						"type": "string"
+					}
+				],
+				"name": "guardarCorreo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nombreNuevo",
+						"type": "string"
+					}
+				],
+				"name": "guardarNombre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "numNuevo",
+						"type": "int256"
+					}
+				],
+				"name": "guardarNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -26,6 +78,32 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nombreCompleto",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numCelular",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -73,11 +151,11 @@
 	},
 	"sources": {
 		"holaMundoDinamico.sol": {
-			"keccak256": "0x428891fe15668affb7f687469f8b35e44916a7cf92e978f6b30433a1285851ef",
+			"keccak256": "0xc8a2573559dd169e3f7a9cbb3bda74cf0d0e4b4e9854e07e0310efadea367d49",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32521e42382b171f50ddb8258df3c1ae38e95a30a424aabbcb03ca2a9292739c",
-				"dweb:/ipfs/QmWzJruPFv28J1ya6rtQ5JN6Et24FsSQ6mzqCBkc24U6L4"
+				"bzz-raw://49ac92e4ed3807d1ffeda47b00674fd6d0a96e4902ab1fe48350553ed29ac4fb",
+				"dweb:/ipfs/Qme3txBQEcFeD67LMVSrxKhAjUgpEwDjKFrg6nKRHDRhxe"
 			]
 		}
 	},
