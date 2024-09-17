@@ -7,98 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "correoElect",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "correoNuevo",
-						"type": "string"
-					}
-				],
-				"name": "guardarCorreo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "nombreNuevo",
-						"type": "string"
-					}
-				],
-				"name": "guardarNombre",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "numNuevo",
-						"type": "uint256"
-					}
-				],
-				"name": "guardarNum",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "nuevoSaludo",
-						"type": "string"
-					}
-				],
-				"name": "guardarSaludo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "leerSaludo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "nombreCompleto",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numCelular",
+				"name": "block_diff",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -111,15 +20,113 @@
 			},
 			{
 				"inputs": [],
-				"name": "saludoEstatico",
+				"name": "block_hash",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "string"
+						"type": "bytes32"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "block_now",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "block_num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gas_left",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gas_limit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sig_id",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "time_stamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateParams",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -136,7 +143,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"holaMundoDinamico.sol": "holaMundoDinamico"
+			"variablesBlockchain.sol": "Solidiy_Vars"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -150,12 +157,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"holaMundoDinamico.sol": {
-			"keccak256": "0x2e29b4d03135bda7263b1ced0d1c350aef74993e64976731e2d27fada3877337",
+		"variablesBlockchain.sol": {
+			"keccak256": "0x66e705008887cf0e3a6086d03abbb1f0ff2a7457d125f995b7841566cfc5139c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5dca8b4746821668546acfb1d96e9eb1338cf3553504a561fc4a62e905f52e8",
-				"dweb:/ipfs/QmcYYNsc2dRPVFCf7EA3MWXG6KPTSt6fGM1oCGUspuTaHs"
+				"bzz-raw://5946bcc289a5f81c94280c53ca640c27248cc26029bc853592cc2f4468eebaa2",
+				"dweb:/ipfs/QmPPNmndD9mNhhUthDByxJqrL5WDakPdYQjGqQ3bxxaVxG"
 			]
 		}
 	},

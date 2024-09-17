@@ -6,7 +6,7 @@ contract holaMundoDinamico {
     string public saludoEstatico = "Hola Estatico"; //Este es estatico 
     string  nombre = "Juan";
     string  correo = "Juan@gmail.com";
-    int256  cel = 18520;
+    uint256  cel = 3105847899;
 
     function leerSaludo () public view returns (string memory) {  //Funcion para leer el saludo
         return saludo;
@@ -30,10 +30,10 @@ contract holaMundoDinamico {
     function guardarCorreo (string memory correoNuevo) public{
         correo = correoNuevo;
     }
-    function numCelular () public view returns (int256){
+    function numCelular () public view returns (uint256){
         return cel;
     }
-    function guardarNum (int256 numNuevo) public {
+    function guardarNum (uint256 numNuevo) public {
         cel = numNuevo;
     }
   
